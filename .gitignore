@@ -1,0 +1,26 @@
+# --- Python / virtualenv ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- DuckDB (regenerated from CSVs by notebook 01, Task 0) ---
+*.db
+*.db.wal
+*.duckdb
+*.duckdb.wal
+
+# --- OS / editor cruft ---
+.DS_Store
+._*
+.vscode/
+.idea/
+
+# --- Archives (raw CSVs are tracked instead) ---
+Dataset/*.zip
