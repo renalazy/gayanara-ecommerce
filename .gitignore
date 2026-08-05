@@ -24,3 +24,4 @@ __pycache__/
 
 # --- Archives (raw CSVs are tracked instead) ---
 Dataset/*.zip
+gayanara.db
